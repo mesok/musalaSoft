@@ -1,0 +1,37 @@
+[
+    {
+        "name": "desktopFullscreen",
+        "type": "desktop",
+        "isFullscreen": true
+    },
+    {
+        "name": "desktopLarge",
+        "type": "desktop",
+        "width": 1300,
+        "height": 900
+    },
+    {
+        "name": "desktopSmall",
+        "type": "desktop",
+        "width": 1100,
+        "height": 900
+    },
+    {
+        "name": "tabletPortrait",
+        "type": "tablet",
+        "width": 900,
+        "height": 1100
+    },
+    {
+        "name": "mobileLandscape",
+        "type": "mobile",
+        "width": 700,
+        "height": 600
+    },
+    {
+        "name": "mobilePortrait",
+        "type": "mobile",
+        "width": 500,
+        "height": 700
+    }
+]
