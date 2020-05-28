@@ -86,21 +86,6 @@
                             <suiteXmlFiles>
                                 <suiteXmlFile>${suites.direcrtory}/musalaTests.xml</suiteXmlFile>
                             </suiteXmlFiles>
-                            <properties>
-                                <property>
-                                    <name>listener</name>
-                                    <value>com.tryzens.qa.testauto.core.testng.TestListener,com.tryzens.qa.testauto.core.testng.SuiteListener,com.tryzens.qa.testauto.core.testng.AnnotationTransformer</value>
-                                </property>
-                            </properties>
-                            <reportsDirectory>${reports.directory}</reportsDirectory>
-                            <systemPropertyVariables>
-                                <screenshots.directory>${reports.directory}/screenshots</screenshots.directory>
-                                <rerun.suite.directory>${reports.directory}/rerunsuites</rerun.suite.directory>
-                                <storefront.name>${storefront.name}</storefront.name>
-                                <device.name>${device.name}</device.name>
-                                <browser>${browser}</browser>
-                                <remoteAddress>${remote.address}</remoteAddress>
-                            </systemPropertyVariables>
                         </configuration>
                     </plugin>
                 </plugins>
